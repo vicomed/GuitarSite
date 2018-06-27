@@ -1,0 +1,148 @@
+/*-----------------------------------------------------------
+
+------------------------GENERAL STYLES
+
+------------------------------------------------------------*/
+
+html {
+	background-color: #f5f5dc;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	font-family: "Montserrat", sans-serif;
+}
+
+/*-----------------------------------------------------------
+
+------------------------STICKY FOOTER
+
+------------------------------------------------------------*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper {
+  flex: 1 0 auto;
+}
+
+/*-----------------------------------------------------------
+
+------------------------HEADER
+
+------------------------------------------------------------*/
+
+header {
+	color: white;
+	border: 1px solid black;
+	background-image: url("../IMG/FujiGen.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#bannerCap {
+	margin-left: 4%;
+	font-family: 'Shrikhand', cursive;
+	color: green;
+}
+
+/*-----------------------------------------------------------
+
+------------------------NAVIGATION
+
+------------------------------------------------------------*/
+
+nav ul a li {
+	color: white;
+	font-size: 1.1em;
+	margin-left: 4%;
+}
+
+/*-----------------------------------------------------------
+
+------------------------SEARCH BAR
+
+------------------------------------------------------------*/
+
+#searchBar {
+	text-align: center;
+}
+
+#searchButton {
+	background-image: url("../IMG/searchIcon.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	min-height: 23px;
+	min-width: 23px;
+}
+
+/*-----------------------------------------------------------
+
+------------------------GALLERY
+
+------------------------------------------------------------*/
+
+#galleryTitle {
+	text-align: center;
+}
+
+#gallery ul li {
+	margin-left: -40px;
+	border: 1px solid black;
+}
+
+.front-image {
+	max-width: 80%;
+	min-height: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.photo-caption {
+	margin-left: 3%;
+}
+
+/*-----------------------------------------------------------
+
+------------------------FOOTER
+
+------------------------------------------------------------*/
+
+footer {
+	margin: 0 4%;
+}
+
+/*-----------------------------------------------------------
+
+------------------------MEDIA QUERIES
+
+------------------------------------------------------------*/
+
+@media (min-width: 675px) {
+	#gallery ul {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -25px;
+	}
+
+	#gallery ul li {
+		flex: 49%;
+		max-width: 49%;
+		margin-left: 1px;
+	}
+}
+

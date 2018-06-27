@@ -1,0 +1,91 @@
+/*-----------------------------------------------------------
+
+------------------------GENERAL STYLES
+
+------------------------------------------------------------*/
+
+/* Potential hex color: #F5F5DC (beige) */
+
+html {
+	background-color: #f5f5dc;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*-----------------------------------------------------------
+
+------------------------STICKY FOOTER
+
+------------------------------------------------------------*/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#wrapper {
+  flex: 1 0 auto;
+}
+
+/*-----------------------------------------------------------
+
+------------------------HEADER
+
+------------------------------------------------------------*/
+
+header {
+	color: white;
+	border: 1px solid black;
+	background-image: url("../IMG/FujiGen.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#bannerCap {
+	margin-left: 4%;
+	font-family: 'Shrikhand', cursive;
+	color: green;
+}
+
+/*-----------------------------------------------------------
+
+------------------------NAVIGATION
+
+------------------------------------------------------------*/
+
+nav ul a li {
+	color: white;
+	font-size: 1.1em;
+	margin-left: 4%;
+}
+
+/*-----------------------------------------------------------
+
+------------------------MAIN BODY
+
+------------------------------------------------------------*/
+
+#profile-photo {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+#mainBody,
+footer {
+	margin: 0 4%;
+}
