@@ -65,7 +65,7 @@ header {
 
 ------------------------------------------------------------*/
 
-nav ul a li {
+#menu ul a li {
 	color: white;
 	font-size: 1.1em;
 	margin-left: 4%;
@@ -114,6 +114,31 @@ nav ul a li {
 
 .photo-caption {
 	margin-left: 3%;
+}
+
+/*-----------------------------------------------------------
+
+------------------------PAGETURN
+
+------------------------------------------------------------*/
+
+#pageTurn {
+	text-align: center;
+}
+
+ul#pageList {
+	display: inline-block;
+	margin-left: -40px;
+}
+
+#pageList li {
+	float: left;
+	min-width: 18px;
+	font-size: 1.1em;
+}
+
+#pageList li:not(:first-child) {
+	margin-left: 5px;
 }
 
 /*-----------------------------------------------------------
